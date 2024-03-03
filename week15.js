@@ -8,7 +8,6 @@
 //Задание 2
 // Выведите чётные числа от 1 до 20 в консоль
 
-
 // for(i=0; i<=20; i++){
 //     if(i % 2 === 0){
 //         console.log(i);
@@ -109,7 +108,7 @@
 //Задание 13
 // Выведите длину каждого слова из массива строк в консоль
 
-// const list = ['apple', 'banana', 'cherry'];
+const list = ['apple', 'banana', 'cherry'];
 // for (let word of list){
 //     console.log(word.length);
 // }
@@ -117,11 +116,16 @@
 //Задание 14
 // Преобразуйте массив каждый элемент массива words в верхний регистр
 
-// for (let word of words){
-//     word.toUpperCase;
+// for (let i = 0; i < list.length; i++){
+//     list[i] = list[i].toUpperCase();
+// }
+// console.log(list);
+
+//почему такой код не будет работать?
+// for (let item of list){
+//     item = item.toUpperCase();
 // } 
-// console.log(words);
-//??где массив words - если внизу,  то к нему невозможно полуичть доступ, такде непонятная формулировка задания, пропущена запятая? или повтор слова массив?
+// console.log(list);
 
 //Задание 15
 // Подсчитайте количество гласных букв в строке
